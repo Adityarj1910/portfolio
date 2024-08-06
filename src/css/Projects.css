@@ -1,0 +1,103 @@
+.projects {
+  /* Add any required styles for the .projects container */
+}
+
+.heading {
+  /* background-color: green; */
+  padding-top: 25px;
+  text-align: center;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.title {
+  /* font-family: "Source Code Pro", monospace; */
+  padding-left: 20px;
+}
+
+.title2 {
+  /* font-family: "Source Code Pro", monospace; */
+  padding-right: 20px;
+}
+
+.project1 {
+  display: flex;
+  /* background-color: maroon; */
+  padding: 30px 100px 20px 80px;
+  margin: auto;
+  margin-bottom: 20px;
+  /* background-color: yellow; */
+}
+.project2 {
+  display: flex;
+  /* background-color: maroon; */
+  padding: 30px 80px 20px 100px;
+  margin: auto;
+  margin-bottom: 20px;
+  /* background-color: greenyellow; */
+}
+
+.project-info {
+  max-width: 60%;
+  /* background-color: pink; */
+  margin-right: 20px;
+}
+
+.project-info2 {
+  max-width: 60%;
+  /* background-color: pink; */
+  margin-left: 20px;
+}
+.cor {
+  max-width: 40%;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: row;
+  /* margin: auto; */
+  /* padding: 0px 30px 0px; */
+}
+.cor2 {
+  max-width: 40%;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: row ;
+  margin-right: 20px;
+  /* margin: auto; */
+  /* padding: 0px 30px 0px; */
+}
+
+.cor-images {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;  /* Center vertically */
+  justify-content: center;  /* Center horizontally if needed */
+  /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  /* background-color: lime; */
+}
+
+.cor-images2 {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;  /* Center vertically */
+  justify-content: center;  /* Center horizontally if needed */
+  /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  /* background-color: lime; */
+}
+
+.cor-images img {
+  border-style: solid;
+  border-radius: 20px;
+  width: 110%;
+  height: 350px;
+  object-fit: fill;
+}
+.cor-images2 img {
+  border-style: solid;
+  width: 110%;
+  height: 350px;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+.coors{
+  border-style: solid;
+}
