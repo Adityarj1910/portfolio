@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import '../css/Blogs.css';
 
 // Import the card data and generateCard function from blog.js
-import { cards as cardData, generateCard } from '../assets/blog.jsx';
+import { cards as cardData, generateCard } from '../assets/blog.js';
 
 function Blogs() {
   const [cards, setCards] = useState([]);
