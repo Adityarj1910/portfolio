@@ -10,10 +10,10 @@ import Projects from './pages/Projects'
 function App() {
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Routes> 
-          <Route exact path='/' render={<Home />} />
-          {/* <Route path="/" element={<Home />} /> */}
+          {/* <Route exact path='/' render={<Home />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/myIntro" element={<MyIntro />} />
           <Route path='/projects' element={<Projects />} />

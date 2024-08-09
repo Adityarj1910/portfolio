@@ -62,8 +62,10 @@ function MyIntro() {
           <div className="content-head">
             <div className="left">
               <h1>So, Who am I?</h1>
-              <p>My name is Aditya. I love taking pictures of Sunset and Sunrise. Beside that I am a part-time 4th year undergrad❤️</p>
-              <div>Skill set</div>
+              <p>Hey there! 👋
+Welcome to my corner of the web! I’m Aditya, a passionate developer who lives and breathes code—but that's not all! When I’m not crafting seamless user experiences or solving tricky bugs, you’ll find me behind a camera, capturing the world one click at a time. 📸 While I’ve got a creative eye behind the camera, it’s in front of the screen where I really shine. I’m always on the lookout for the next big thing in tech and love pushing the boundaries of what’s possible.
+And hey, just below, you’ll find a skill bar that shows what I’m all about—because who doesn’t love a good visual, right? So, if you’re looking for someone who can bring a blend of technical expertise, creative flair, and a dash of fun to the table—let’s connect! You can check out my CV below to see what I’ve been up to, and feel free to reach out. Let’s create something amazing together!</p>
+              {/* <div className='sk'>Skills:</div> */}
               <div className="lower">
                 <div className="skill">
                   <div className="center">
@@ -160,7 +162,8 @@ function MyIntro() {
           </div>
           <div className="lr">
               <h3>Photography</h3>
-              <p>Lorem aaipsum dolor sit amet consectetur adipisicing elit. Sint fugit architecto inventore, totam ea optio est asperiores ex consequatur veniam dicta nesciunt ab ad, placeat explicabo! Quos eius quibusdam nulla voluptas hic fugiat asperiores nemo! Eaque vitae saepe ut aperiam molestias voluptatem harum cum dolores! Vitae illum rem nostrum esse ut, voluptatibus eum sunt omnis. Neque unde quos facilis voluptatibus.</p>
+              <p>Capturing Moments 📸
+              When I’m not deep in code, you’ll likely find me with a camera in hand, chasing the perfect shot. Photography isn’t just a hobby—it’s my way of seeing the world from a different perspective. Whether it’s the vibrant colors of a sunset or the candid moments of everyday life, I love freezing those split seconds that tell a story. Just like in coding, it’s all about creativity, timing, and a bit of magic. Take a peek at some of my favorite captures—each one has a story of its own!</p>
           </div>
         </div>
       </div>
