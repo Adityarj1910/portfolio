@@ -31,13 +31,13 @@
 }
 
 .left {
-  background-color: purple;
+  /* background-color: purple; */
   width: 60vw;
   height: 50vh;
   margin-top: 25px;
   /* justify-content: center; */
   /* align-items: center; */
-  padding: 0px 80px 0px 50px;
+  padding: 10px 80px 20px 50px;
   margin-left: 70px;
 }
 
@@ -48,16 +48,19 @@
   /* font-family: "Source Code Pro", monospace; */
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(4px);
-  background-color: #312c3c;
-  border-radius: 30px;
-  border-width: 0.5px;
-  /* border-color: rgb(174, 181, 181); */
-  /* border-style: solid; */
-  padding: 10px;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  /* -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px); */
+  /* background-color: #312c3c; */
+  /* border-radius: 30px; */
+  /* border-width: 2px;
+  border-color: black;
+  border-style: solid; */
+  padding: 20px 40px 0px 40px;
+  padding-bottom: 20px;
+  /* margin-bottom: 50px; */
+  /* margin-top: 20px; */
+  text-align: justify;
+  font-size: 17px;
 }
 
 .sk{
@@ -72,7 +75,7 @@
 
 .right {
   /* display: flex; */
-  background-color: yellow;
+  /* background-color: yellow; */
   justify-content: center;
   width: 25vw;
   height: 53.3vh;
@@ -89,21 +92,21 @@
 }
 
 .lower {
-  padding: 10px 0px 10px 5px;
+  padding: 0px 0px 20px 5px;
   display: flex;
   /* width: 30%; */
-  background-color: orange;
+  /* background-color: orange; */
   /* text-align: left; */
   justify-content: space-around;
   /* border-style:solid;
   border-width: 1px; */
-  border-radius: 30px;
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(4px);
+  /* border-radius: 30px; */
+  /* -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px); */
 }
 
 .skill {
-  width: 50vh;
+  width: 55vh;
   /* background-color: green; */
   /* justify-content: center; */
   align-self: center;
@@ -130,6 +133,14 @@
   margin-bottom: 5px;
 }
 
+.content-body{
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border-radius: 30px;
+  border-style: solid;
+  margin-top: 20px;
+  border-width: 1.5px;
+}
 .sub {
   /* background-color: gold; */
   width: 180px;
@@ -150,6 +161,13 @@
   margin-top: 7px;
   /* justify-content: center; */
   /* align-items: center; */
+}
+
+.progress{
+  width: 260px;
+  height: 30px;
+  margin-left: 20px;
+  /* margin-top: 5px; */
 }
 
 .a90 {
@@ -221,8 +239,8 @@ h1 {
 }
 
 .card-body {
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+  /* -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px); */
   width: 1550px;
   border-width: 1px;
   border-style: solid;
@@ -245,8 +263,9 @@ h1 {
 }
 
 p {
-  padding: 0px 20px 6px 20px;
+  padding: 0px 20px 20px 20px;
   font-family: "Poppins", sans-serif;
+  
 }
 
 .parent {
@@ -307,15 +326,18 @@ p {
   text-align: center;
   margin: 42px 20px 0px 20px;
   border-style: solid;
-  border-radius: 30px;  
+  border-radius: 30px;
+  border-width: 0.5px;  
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 }
 
-.lr h3{
+.lr h2{
   font-family: "Poppins", sans-serif;
+  font-size: 37px;
 }
 
 p{
   text-align: justify;
+  font-size: 17px;
 }

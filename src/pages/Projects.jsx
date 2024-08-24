@@ -27,7 +27,7 @@ function Projects() {
         <div className="project1">
           <div className="project-info">
             <div className="title">
-              <h3>Portfolio</h3>
+              <h3>Personal Portfolio</h3>
             </div>
             <div className="about">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam, delectus, placeat laboriosam adipisci rerum fugiat veritatis sed cum cupiditate earum. Facilis tempora accusamus nulla ex, quasi nam aliquam quo?

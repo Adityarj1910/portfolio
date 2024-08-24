@@ -28,7 +28,7 @@ function Home(){
               <div className="name">Aditya Raj</div>
               <div className="info">Developer, Athelete, Photographer, A fun loving Guy.</div>
               <div className="home-buttons">
-                <a href={resume} target="_blank"><button>Download CV</button></a>
+                <a href={resume} target="_blank"><button>  Resume  </button></a>
                 <button onClick={contactMe}>Contact Me</button>
               </div>
             </div>
