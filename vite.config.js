@@ -9,6 +9,6 @@ export default defineConfig({
   //     'Permissions-Policy': 'interest-cohort=()',
   //   },
   // },
-  base: '/portfolio/',
+  // base: '/portfolio/',
 })
   
