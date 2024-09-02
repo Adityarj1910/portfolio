@@ -1,4 +1,5 @@
 .footer{
+  margin-top: 10vh;
   height: 7vh;
   /* background-color: rgb(240, 240, 225); */
   /* background-color: #efefec; */
@@ -29,4 +30,10 @@
   background-color: transparent;
   border: 0px;
   cursor: pointer
+}
+
+@media (max-width: 600px) {
+  .footer{
+    margin-top: 0px;
+  }
 }
