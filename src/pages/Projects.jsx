@@ -102,6 +102,7 @@ function Projects() {
             <div className="about">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam, delectus, placeat laboriosam adipisci rerum fugiat veritatis sed cum cupiditate earum. Facilis tempora accusamus nulla ex, quasi nam aliquam quo?
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel non inventore ipsum fuga qui illo eum facere atque eius ullam neque at ratione quod cum, officiis perspiciatis ex necessitatibus aliquam maiores dolore quisquam enim aliquid unde. Adipisci enim animi quas.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas, ab hic soluta a nisi quos aperiam repellat rem consequuntur suscipit molestiae reprehenderit iste est quibusdam ipsam minus, similique consectetur doloribus expedita inventore. Recusandae velit, laboriosam similique magnam voluptates nostrum unde, assumenda incidunt nihil, odio inventore tempore praesentium tenetur est nisi adipisci atque cumque ad facere explicabo aliquid eum. Repellendus facilis voluptate neque omnis necessitatibus? Minus incidunt ex assumenda deserunt illo modi temporibus, eligendi, suscipit rerum non vitae quam? Laborum vitae optio, excepturi eum ab numquam quis non in, velit tempore provident nisi quas saepe, blanditiis sapiente asperiores illo cupiditate!
               </p>
             </div>
           </div>

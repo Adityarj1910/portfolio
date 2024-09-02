@@ -43,10 +43,13 @@
 .cor{
   display: flex;
   flex-direction: row;
+  /* background-color: #fff; */
+  margin: auto;
 }
 
 .cor-images {
   display: flex;
+  /* background-color: #fff; */
   align-items: center;
   justify-content: center;
 }
