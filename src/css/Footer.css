@@ -1,17 +1,8 @@
 .footer{
   margin-top: 10vh;
   height: 7vh;
-  /* background-color: rgb(240, 240, 225); */
-  /* background-color: #efefec; */
-  /* background-image: url('../images/fbgc2.jpg'); */
   background-size:cover;
   background-repeat: no-repeat;
-  /* background-image: linear-gradient(to top, rgb(222, 222, 208) 50%, #fff 100%); */
-  /* background-image: linear-gradient(360deg, #fdfcfb 0%, #e2d1c3 100%); */
-  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
- background-blend-mode: multiply,multiply; */
- /* background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%); */
- 
 }
 
 .socialbtn {
@@ -22,7 +13,7 @@
 }
 
 .socialbtn img{
-  margin-top: 16px;
+  /* margin-top: 16px; */
   /* padding: 10px; */
   /* width: 40px; */
   border-radius: 20px;
@@ -30,10 +21,4 @@
   background-color: transparent;
   border: 0px;
   cursor: pointer
-}
-
-@media (max-width: 600px) {
-  .footer{
-    margin-top: 0px;
-  }
 }

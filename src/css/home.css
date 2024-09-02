@@ -1,102 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-/* #root{
-    background-image: url('../images/bgc5.jpg');
-} */
-*{
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
-.main-body{
-    height: 100vh;
-    width: 100vw;
-    /* background-image: url('../images/bgc.jpg'); */
-    /* background-image: url('../images/bgc2.jpg'); */
 
-/* background-size: cover; */
-/* background-repeat: no-repeat; */
-    /* background-image: linear-gradient(to top left,  black 0%,  #434343 100%);  */
-    /* background-color: pink; */
-    /* color: #fff; */
+.main-body {
+    min-height: 100vh;
 }
 
-
-.main{
+.main {
     /* background-color: yellow; */
-    /* height: 100vh; */
-    padding-top: 100px;
+    height: 93vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.content{
-    /* background-color: green; */
+.content {
     height: 80vh;
     width: 80vw;
-    /* margin: 100px;
-    margin-top: 0px; */
-    /* align-items: center; */
+    margin-top: 10vh;
     display: flex;
-    justify-content: space-around;
-    /* border-style:dashed; */
-    /* border-width: 1px; */
-    /* border-color: black; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: green;  */
 }
 
-.devPic img{
-    height: 55vh;
-    /* background-color: #fff; */
-    /* margin-bottom: 20px; */
-
-}
-
-.devInfo{
+.devInfo {
     display: flex;
-    /* justify-content: center; */
-    margin-top: 120px;
+    width: 60%;
+    height: 50%;
+    padding: 4vh 2vh;
     flex-direction: column;
-    /* font-family: "Source Code Pro", monospace; */
+    /* background-color: crimson; */
 }
 
-.hello{
-    font-size: 70px;
+.devPic {
+    /* background-color: #fff; */
+    padding-top: 6vh ;
+    width: 35%;
+    height: 50%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    /* background-color: #fff; */
+}
+
+.devPic img {
+    /* max-width: fit-content; */
+}
+
+.hello {
+    font-size: 4vw;
     font-family: "Source Code Pro", monospace;
 }
-.name{
-    font-size: 60px;
+
+.name {
+    font-size: 4vw;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
+    color: rgb(39, 8, 8)
 }
-.info{    
+
+.info {
     font-family: "Source Code Pro", monospace;
-    font-size: 40px;
-    width: 50vw;
+    font-size: 3vw;
 }
-.home-buttons button{
-    margin-top: 50px;
-    padding: 12px;
+
+.home-buttons button {
+    margin-top: 5vh;
+    padding: 0.6vw;
     border-radius: 24px;
-    border: 0px;
-    margin-right: 20px;
+    border: 0.1vw;
+    margin-right: 1vw;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     cursor: pointer;
     box-shadow: 2px 2px 10px rgb(95, 84, 84);
     background-color: rgb(39, 8, 8);
     color: #fff;
-    width: 130px;
+    width: 7vw;
 }
-.home-buttons button:hover{
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-              background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-              opacity 0.55s ease;
-    /* background-color: rgb(255, 151, 133); */
-   /* color: black; */
-    color: rgb(118, 33, 18);
-    background-color: white;
 
+.home-buttons button:hover {
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                opacity 0.55s ease;
+    color: rgb(118, 33, 18);
+    background-color: white;    
+}
+
+@media (max-width: 600px) {
     
-    
+    .main-body {
+        min-height: 98vh;
+    }
+    .main {
+        height: 100%;
+        width: 100%;
+    }
+
+    .content {
+        height: 60%;
+        width: 100%;
+        margin-top: 0vh;
+        display: flex;
+        justify-content: center;  /* Center content horizontally */
+        align-items: center;  /* Center content vertically */
+        /* flex-wrap: wrap; */
+        /* background-color: green;  */
+    }
+
+    .devInfo {
+        display: flex;
+        width: 100%;
+        height: 40%;
+        padding: 11vh 6vh 0vh 6vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: crimson; */
+    }
+
+    .devPic {
+        padding-top: 0vh;
+        margin-top: 2vh;
+        width: 90%; 
+        height: 50%;
+        display: flex;  
+        justify-content: center; 
+        align-items: center;  
+        /* background-color: #fff; */
+    }
+
+    .devPic img {
+        object-fit: cover;
+        height: 100%;
+        width: 90%;
+        /* background-color: black; */
+        /* display: none; */
+    }
+
+    .hello {
+        font-size: 5.5vh;
+        font-family: "Source Code Pro", monospace;
+    }
+
+    .name {
+        font-size: 6.5vh;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        color: rgb(39, 8, 8);
+    }
+
+    .info {    
+        font-family: "Source Code Pro", monospace;
+        font-size: 3vh;
+    }
+
+    .home-buttons button {
+        margin-top: 3vh;
+        padding: 1.2vh;
+        width: 12vh;
+        border-radius: 24px;
+        border: 0.1vw;
+        margin-right: 6vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 1.5vh;
+        cursor: pointer;
+        box-shadow: 2px 2px 10px rgb(95, 84, 84);
+        background-color: rgb(39, 8, 8);
+        color: #fff;
+    }
+
+    .home-buttons button:hover {
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                  background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                  opacity 0.55s ease;
+        color: rgb(118, 33, 18);
+        background-color: white;    
+    }
 }

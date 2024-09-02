@@ -10,11 +10,6 @@ import axios from 'axios';
 const options = {
   method: 'GET',
   url: 'https://newsdata.io/api/1/news?apikey=pub_51609daa31b2bd4d5b50eb64a051089f002c2&q=Cricket&language=en',
-  // params: {lr: 'en-US'},
-  // headers: {
-  //   'x-rapidapi-key': 'dd35b5e1e1msh8ca64e82e7d440dp17726djsnbec82c81861d',
-  //   'x-rapidapi-host': 'google-news13.p.rapidapi.com'
-  // }
 };
 
 
@@ -72,7 +67,8 @@ function Blogs() {
             {cards.map((card, index) => (
               <div key={index} className="blog">
                 <div className="card-body">
-                  <h3 className="card-title"><u>{card.title}</u></h3>
+                  <h3 className="card-title">{card.title}</h3>
+                  <hr />
                   <p className="card-text">{card.text}</p>
                   <p className="card-time"><small className="text-body-secondary">{card.time}</small></p>
                 </div>
