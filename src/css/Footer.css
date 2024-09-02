@@ -22,3 +22,9 @@
   border: 0px;
   cursor: pointer
 }
+
+@media (max-width: 600px) {
+  .footer{
+    margin-top: 0px;
+  }
+}
