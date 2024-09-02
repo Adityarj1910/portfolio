@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-
-
 .blog-main{
-  /* background-color: yellow; */
   display: flex;
   justify-content: center;
 }
@@ -13,34 +10,21 @@
 .head{
   display: flex;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 7vh 0vw;
   justify-content: center;
-  margin-bottom: 20px;
-  padding: 5px 40px 5px 40px;
-  /* border-radius: 100px;
-  background-color: brown;
-  border-style:groove;
-  border-width: 3px;
-  border-color: black;
-  width: 70%; */
+  /* margin-bottom: 2vh; */
+  padding: 0vh 4vw 0vh 4vw;
+  /* background-color: #fff; */
 }
 
 .blogsmain{
-  /* height: 82vh; */
   display: flex;
   justify-content: center;
-  /* background-image: blur; */
-  /* filter: blur(1px); */
-  /* -webkit-filter: blur(8px); */
-  
-
 }
 
 .card{
   display: flex;
   text-align: center;
-  /* width: 100vw; */
-  /* background-color: pink; */
   justify-content: center;
   flex-direction: column;
 }
@@ -48,38 +32,114 @@
 
 h1{
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 2.8vw;
 }
 
 
 .card-body{
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
-  width: 1550px;
+  width: 80vw;
   border-width: 1px;
   border-style: solid;
   text-align: justify;
-  margin: 20px 0px 30px 0px;
+  /* margin: 20px 0px 30px 0px; */
+  margin: 2vh 0vh 4vh 0vh;
   border-radius: 30px;
   border-width: 2px;
-  /* padding: 10px 0px 10px 0px; */
-  
 }
 .card-title{
-  padding:  10px 20px 5px 20px;
+  padding:  0.5vh 2vw 0vh 1.5vw;
   font-family: "Source Code Pro", monospace;
-  font-size: 25px;
-  
-
+  font-size: 1.15vw;
+  /* background-color: #fff; */
 }
 
 .card-text{
-  padding: 8px 20px 3px 20px;
+  padding: 0.5vh 2vw 0vh 1.5vw;
   font-family: "Poppins", sans-serif;
 }
 
 p{
-  padding: 0px 20px 6px 20px;
+  padding: 0.5vh 2vw 0vh 1.5vw;;
   font-family: "Poppins", sans-serif;
+  font-size: 0.85vw ;
 }
-
+hr{
+  margin-top: -1vh;
+  /* font-weight: 600; */
+  height: 0.09vh;
+  color: #000;
+  background-color: black;
+}
+@media (max-width: 600px) {
+  
+  .blog-main{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .head{
+    display: flex;
+    text-align: center;
+    margin-top: 2vh;
+    justify-content: center;
+    /* margin-bottom: 2vh; */
+    padding: 1vh 4vw -2vh 4vw;
+    /* background-color: #fff; */
+  }
+  
+  .blogsmain{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 6vh;
+  }
+  
+  
+  .card-body{
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    width: 90vw;
+    border-width: 1px;
+    border-style: solid;
+    /* background-color: crimson; */
+    text-align: justify;
+    /* margin: 20px 0px 30px 0px; */
+    margin: 2vh 0vh 4vh 0vh;
+    margin-top: -1vh;
+    border-radius: 30px;
+    border-width: 2px;
+  }
+  .card-title{
+    padding:  0.5vh 4vw 0vh 4vw;
+    font-family: "Source Code Pro", monospace;
+    font-size: 2vh;
+    text-align: justify;
+    text-decoration: none;
+  }
+  
+  .card-text{
+    padding: 0.5vh 4vw 0vh 4vw;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  p{
+    padding: 0.5vh 4vw 0vh 4vw;;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8vh;
+  }
+  
+}

@@ -62,7 +62,7 @@ function ContactMe(){
                 <div className='txtmsg'>*We will never share your data with anyone else</div>
                 <button  className='submit1'>Submit</button>
               </form>
-              <span>{result}</span>
+              <span className='result'><p>{result}</p></span>
             </div>
           </div>
         </div>

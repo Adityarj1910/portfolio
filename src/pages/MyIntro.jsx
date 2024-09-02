@@ -5,6 +5,14 @@ import myImage from '../images/project.png';
 import Footer from '../components/Footer';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import cpp from '../assets/c++.png';
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import js from '../assets/js.png';
+import react from '../assets/react.png';
+import mysql from '../assets/mysql.png';
+import python from '../assets/python.png';
+import git from '../assets/git.png';
 import img1 from '../images/img1.jpg';
 import img2 from '../images/img2.jpg';
 import img3 from '../images/img3.jpg';
@@ -41,7 +49,7 @@ const responsive = {
     slidesToSlide: 3 // optional, default to 1.
   },
   mobile: {
-    breakpoint: { max: 767, min: 464 },
+    breakpoint: { max: 600, min: 464 },
     items: 2,
     slidesToSlide: 2 // optional, default to 1.
   }
@@ -56,96 +64,58 @@ function MyIntro() {
 
   return (
     <>
+      <Hamburgerstate />
       <div className='intro-body'>
-        <Hamburgerstate />
         <div className='content-main'>
           <div className="content-head">
             <div className="left">
               <h1>So, Who am I?</h1>
               <div className="content-body">
                 <p>Hey there! 👋
-                  Welcome to my corner of the web! I’m Aditya, a passionate developer who lives and breathes code—but that's not all! When I’m not crafting seamless user experiences or solving tricky bugs, you’ll find me behind a camera, capturing the world one click at a time. 📸 While I’ve got a creative eye behind the camera, it’s in front of the screen where I really shine. I’m always on the lookout for the next big thing in tech and love pushing the boundaries of what’s possible.
-                  And hey, just below, you’ll find a skill bar that shows what I’m all about—because who doesn’t love a good visual, right? So, if you’re looking for someone who can bring a blend of technical expertise, creative flair, and a dash of fun to the table—let’s connect! You can check out my CV below to see what I’ve been up to, and feel free to reach out. Let’s create something amazing together!</p>
+                  Welcome to my corner of the web!  I'm Aditya—a developer who loves to craft seamless user experiences and tackle tricky bugs. But that's not all—when I'm not coding, I'm out capturing the world one photo at a time. 📸
+                  <br />
+                  {/* {line} */}
+                  Curious about my skills? Scroll down to see my skill bar—because who doesn't love a good visual? If you're after someone who blends technical expertise with creative flair (and a bit of fun), let's connect! Check out my other section in this website, and don't hesitate to reach out. Let's create something amazing together!
+
+                </p>
                 {/* <div className='sk'>Skills:</div> */}
-                <div className="lower">
-                  <div className="skill">
-                    <div className="center">
-                      <div className="sub">C++</div>
-                      {/* <div className="prog">
-                      <div className="a90"></div>
-                    </div> */}
-                      <progress value="80" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">Java</div>
-                      {/* <div className="prog">
-                      <div className="a70"></div>
-                    </div> */}
-                      <progress value="50" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">Python</div>
-                      {/* <div className="prog">
-                      <div className="a60"></div>
-                    </div> */}
-                      <progress value="40" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">Problem Solving</div>
-                      {/* <div className="prog">
-                      <div className="a80"></div>
-                    </div> */}
-                      <progress value="75" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">JavaScript</div>
-                      {/* <div className="prog">
-                      <div className="a80"></div>
-                    </div> */}
-                      <progress value="70" max="100" className="progress" ></progress>
-                    </div>
+                <div className="skill">
+                  <div className="image">
+                    <img src={cpp} alt='C++' />
+                    <p>C++</p>
                   </div>
-                  <div className="skill">
-                    <div className="center">
-                      <div className="sub">HTML/CSS</div>
-                      {/* <div className="prog">
-                      <div className="a80"></div>
-                    </div> */}
-                      <progress value="80" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">React.js</div>
-                      {/* <div className="prog">
-                      <div className="a70"></div>
-                    </div> */}
-                      <progress value="50" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">SQL</div>
-                      {/* <div className="prog">
-                      <div className="a65"></div>
-                    </div> */}
-                      <progress value="70" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">Git/GitHub</div>
-                      {/* <div className="prog">
-                      <div className="a60"></div>
-                    </div> */}
-                      <progress value="65" max="100" className="progress" ></progress>
-                    </div>
-                    <div className="center">
-                      <div className="sub">Photography</div>
-                      {/* <div className="prog">
-                      <div className="a90"></div>
-                    </div> */}
-                      <progress value="90" max="100" className="progress" ></progress>
-                    </div>
+                  <div className="image">
+                    <img src={html} alt='HTML' />
+                    <p>HTML</p>
+                  </div>
+                  <div className="image">
+                    <img src={css} alt='CSS' />
+                    <p>CSS</p>
+                  </div>
+                  <div className="image">
+                    <img src={js} alt='Javascript' />
+                    <p>Javascript</p>
+                  </div>
+                  <div className="image">
+                    <img src={react} alt='React js' />
+                    <p>React js</p>
+                  </div>
+                  <div className="image">
+                    <img src={mysql} alt='MySQL' />
+                    <p>MySQL</p>
+                  </div>
+                  <div className="image">
+                    <img src={python} alt='Python' />
+                    <p>Python</p>
+                  </div>
+                  <div className="image">
+                    <img src={git} alt='Git' />
+                    <p>Git</p>
                   </div>
                 </div>
               </div>
-
             </div>
+
             <div className="right">
               <img src={myImage} alt='me' className='self' />
             </div>
@@ -176,7 +146,7 @@ function MyIntro() {
           <div className="lr">
             <h2>Photography</h2>
             <p>Capturing Moments 📸
-              When I’m not deep in code, you’ll likely find me with a camera in hand, chasing the perfect shot. Photography isn’t just a hobby—it’s my way of seeing the world from a different perspective. Whether it’s the vibrant colors of a sunset or the candid moments of everyday life, I love freezing those split seconds that tell a story. Just like in coding, it’s all about creativity, timing, and a bit of magic. Take a peek at some of my favorite captures—each one has a story of its own!</p>
+              When I'm not deep in code, you'll likely find me with a camera in hand, chasing the perfect shot. Photography isn't just a hobby—it's my way of seeing the world from a different perspective. Whether it's the vibrant colors of a sunset or the candid moments of everyday life, I love freezing those split seconds that tell a story. Just like in coding, it's all about creativity, timing, and a bit of magic. Take a peek at some of my favorite captures—each one has a story of its own!</p>
           </div>
         </div>
       </div>
