@@ -157,7 +157,16 @@
    color: dodgerblue;
    background-color: white;    
 }
+.result p{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5vh;
+  margin-left: -2.8vh;
+}
+.result{
+  height: 20vh;
+  margin-left: 8vw;
 
+}
 
 @media (max-width: 600px) {
   .contact-main{
