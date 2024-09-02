@@ -110,3 +110,33 @@ body {
 #menuToggle input:checked ~ ul {
   transform: translate(0, 0);
 }
+
+
+@media (max-width: 600px) {
+  #menu {
+    position: fixed; /* Change to fixed to prevent overflow */
+    width: 30vw; /* Adjust the width to your preference */
+    height: 80vh; /* Full height */
+    top: 0;
+    left: 0;
+    margin: 0; /* Remove margin to prevent overflow */
+    padding: 50px;
+    padding-top: 125px;
+    background: #2c2a53;
+    /* background: #ededed; */
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menuToggle {
+    display: block;
+    position: fixed; /* Change to fixed to keep it in view */
+    top: 3vh; /* Adjust the position to your preference */
+    left: 3vh;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}

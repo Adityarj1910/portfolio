@@ -1,103 +1,149 @@
 .projects {
-  /* Add any required styles for the .projects container */
 }
 
 .heading {
   /* background-color: green; */
-  padding-top: 25px;
+  padding-top: 2vh;
   text-align: center;
-  /* font-family: "Poppins", sans-serif; */
 }
 
-.title {
-  /* font-family: "Source Code Pro", monospace; */
-  padding-left: 20px;
-}
-
-.title2 {
-  /* font-family: "Source Code Pro", monospace; */
-  padding-right: 20px;
-}
-
-.project1 {
+.project1, .project2 {
   display: flex;
-  /* background-color: maroon; */
-  padding: 30px 100px 20px 80px;
-  margin: 0 30px 0 30px;
-  margin-bottom: 20px;
-  /* background-color: yellow; */
-}
-.project2 {
-  display: flex;
-  /* background-color: maroon; */
-  padding: 30px 120px 20px 100px;
-  margin: 0 30px 0 30px;
-  margin-bottom: 20px;
-  /* background-color: greenyellow; */
-}
-
-.project-info {
-  max-width: 60%;
-  /* background-color: pink; */
-  margin-right: 20px;
+  /* background-color: #c0bec8; */
+  /* background-color: #e4e4e4; */
+  /* opacity: 0.3; */
+  padding: 2vw 1vw 2vw 1vw;
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 2vh;
+  text-align: justify;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  /* border: .31vh solid; */
+  margin-bottom: 4vh;
+  margin-top: 4vh;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 0.23vh; 
 }
 
-.project-info2 {
-  max-width: 60%;
-  /* background-color: pink; */
-  margin-left: 20px;
+.project1 .project-info {
+  width: 60vw;
+  margin-right: 2vw;
+  /* background-color: #fff; */
 }
-.cor {
-  max-width: 40%;
-  /* background-color: orange; */
+
+.project2 .project-info {
+  width: 60vw;
+  margin-left: 2vw;
+  /* background-color: #fff; */
+}
+
+.cor{
   display: flex;
   flex-direction: row;
-  /* margin: auto; */
-  /* padding: 0px 30px 0px; */
-}
-.cor2 {
-  max-width: 40%;
-  /* background-color: orange; */
-  display: flex;
-  flex-direction: row ;
-  margin-right: 20px;
-  /* margin: auto; */
-  /* padding: 0px 30px 0px; */
 }
 
 .cor-images {
-  /* width: 100%; */
   display: flex;
-  align-items: center;  /* Center vertically */
-  justify-content: center;  /* Center horizontally if needed */
-  /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-  /* background-color: lime; */
+  align-items: center;
+  justify-content: center;
 }
 
-.cor-images2 {
-  /* width: 100%; */
-  display: flex;
-  align-items: center;  /* Center vertically */
-  justify-content: center;  /* Center horizontally if needed */
-  /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-  /* background-color: lime; */
+.title {
+  padding-left: 1.457vw;
+}
+
+
+.coors{
+  border-style: solid;
+  border-width: 0.01vh;
 }
 
 .cor-images img {
   border-style: solid;
-  border-radius: 20px;
-  width: 110%;
-  height: 350px;
-  object-fit: fill;
-}
-.cor-images2 img {
-  border-style: solid;
-  width: 110%;
-  height: 350px;
+  width: 24vw;
+  height: 13.5vw;
   object-fit: fill;
   border-radius: 20px;
 }
 
-.coors{
-  border-style: solid;
+@media (max-width: 600px) {
+  .heading {
+    /* background-color: green; */
+    padding-top: 2vh;
+    text-align: center;
+    margin-bottom: -2vh;
+  }
+  
+  .project1, .project2 {
+    display: flex;
+    width: 85vw;
+    flex-direction: column;
+    /* background-color: maroon; */
+    
+    /* padding: 1vh 6vw 3vh 2vw; */
+    text-align: justify;
+    /* margin: 0 3vw 0 3vw; */
+    /* margin-bottom: 6vh; */
+    margin: 5vh auto;
+  }
+  
+  .project1 .project-info {
+    width: 100%;
+    padding-left: 0vw;
+    /* margin-left: 0vw; */
+    margin: auto;
+    /* margin-right: 2vw; */
+    /* background-color: #fff; */
+  }
+  
+  .project2 .project-info {
+    width: 100%;
+    padding-left: 0vw;
+    margin: auto;
+    /* margin-left: 0vw; */
+    /* margin-left: 2vw; */
+    /* background-color: lightseagreen; */
+  }
+  
+  .cor{
+    display: flex;
+    flex-direction: column;
+    /* background-color: crimson; */
+    /* display: none; */
+  }
+  
+  .cor-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    padding-left: 1.9vh;
+    /* fiont */
+  }
+  
+  
+  .coors{
+    border-style: solid;
+  }
+  
+  .cor-images img {
+    width: 80.64vw;
+    height: 45.36vw;
+    object-fit: fill;
+    border-style: solid;
+    border-radius: 20px;
+  }
+
+  .space{
+    /* height: 20vh; */
+    margin: 20vh;
+    /* padding: 20vh; */
+    background: #000;
+  }
 }
+
