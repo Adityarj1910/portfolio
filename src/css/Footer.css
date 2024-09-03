@@ -9,13 +9,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* vertical-align: middle; */
 }
 
 .socialbtn img{
-  /* margin-top: 16px; */
-  /* padding: 10px; */
-  /* width: 40px; */
   border-radius: 20px;
   margin-left: 60px;
   background-color: transparent;
@@ -25,6 +21,20 @@
 
 @media (max-width: 600px) {
   .footer{
-    margin-top: 0px;
+    width: 100%;
+  }
+  .socialbtn {
+    padding-left: 3vh;
+    padding-right: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .socialbtn img{
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+    margin: auto;
   }
 }

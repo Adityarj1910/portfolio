@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Hamburgerstate from '../components/Hamburgerstate';
 import { useNavigate } from 'react-router-dom';
 import '../css/home.css'
-import myImage from '../images/project4.png';
+import myImage from '../images/project4.jpg';
 import resume from '../assets/Aditya-Resme.pdf'
 import Footer from '../components/Footer';
 // import { useNavigate } from 'react-router-dom';

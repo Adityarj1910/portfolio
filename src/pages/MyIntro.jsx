@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Hamburgerstate from '../components/Hamburgerstate';
 import '../css/MyIntro.css';
-import myImage from '../images/project.png';
+import myImage from '../images/project2.jpg';
 import Footer from '../components/Footer';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";

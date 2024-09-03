@@ -50,7 +50,8 @@ html, body {
 }
 
 .devPic img {
-    /* max-width: fit-content; */
+    max-width: 70%;
+    border-radius: 50%;
 }
 
 .hello {
@@ -106,7 +107,7 @@ html, body {
     .content {
         height: 60%;
         width: 100%;
-        margin-top: 0vh;
+        margin-top: -1vh;
         display: flex;
         justify-content: center;  /* Center content horizontally */
         align-items: center;  /* Center content vertically */
@@ -137,6 +138,7 @@ html, body {
 
     .devPic img {
         object-fit: cover;
+        margin: 6vh;
         height: 100%;
         width: 90%;
         /* background-color: black; */
