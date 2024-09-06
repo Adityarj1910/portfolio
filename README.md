@@ -31,8 +31,8 @@ This project was a great opportunity to demonstrate my ability to build a user-f
 >### [Here's the link to my website](https://adityarj-portfolio.netlify.app/)
 
 
->**Homepage**
-![Image](/src/images/portfolio/home.png)
+<!-- >**Homepage**
+![Image](/src/images/portfolio/home.png) ![Image](/src/images/portfolio/home.png "Hello") 
 
 >**My Intro**
 ![Intro](/src/images/Portfolio/intro.png)
@@ -50,4 +50,9 @@ This project was a great opportunity to demonstrate my ability to build a user-f
 ![Intro](/src/images/Portfolio/ham.png)
 
 >**Footer**
-![Intro](/src/images/Portfolio/footerr.png)
+![Intro](/src/images/Portfolio/footerr.png) -->
+
+<p float="left">
+  <img src="/src/images/Portfolio/home.png" width="100" />
+  <img src="/src/images/Portfolio/home1.png" width="100" /> 
+</p>
