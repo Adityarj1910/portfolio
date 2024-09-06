@@ -2,7 +2,7 @@
   position: relative;
   background-color: black; /* Fallback background color */
   color: black;
-  background-image: url('../images/bgc.jpg');
+  background-image: url('../images/bgc15.jpg');
   background-size:contain;
   overflow: hidden;
   /* background-repeat: no-repeat; */
@@ -22,6 +22,15 @@
 }
 
 @media (max-width: 600px) {
+  #root {
+    position: relative;
+    background-color: black; /* Fallback background color */
+    color: black;
+    background-image: url('../images/bgc4.jpg');
+    background-size:contain;
+    overflow: hidden;
+    /* background-repeat: no-repeat; */
+  }
   #root::before {
     transform: rotate(90deg);
     transform-origin: center;
