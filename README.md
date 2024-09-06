@@ -58,24 +58,24 @@ This project was a great opportunity to demonstrate my ability to build a user-f
 
 >**My Intro**
 
-<img  src="./src/images/Portfolio/intro.png" width=70% /> <img  src="./src/images/Portfolio/intro1.png" height = 298px  /> 
+<img  src="./src/images/Portfolio/intro.png" width=70% /> <img  src="./src/images/Portfolio/intro1.png" height = 331px  /> 
 
 >**Projects**
 
-<img  src="./src/images/Portfolio/projects.png" width=70% /> <img  src="./src/images/Portfolio/projects1.png" height = 298px  /> 
+<img  src="./src/images/Portfolio/projects.png" width=70% /> <img  src="./src/images/Portfolio/projects1.png" height = 331px  /> 
 
 >**Blogs**
 
-<img  src="./src/images/Portfolio/blogs.png" width=70% /> <img  src="./src/images/Portfolio/blogs1.png" height = 298px  /> 
+<img  src="./src/images/Portfolio/blogs.png" width=70% /> <img  src="./src/images/Portfolio/blogs1.png" height = 331px  /> 
 
 >**Contact Me**
 
-<img  src="./src/images/Portfolio/contactme.png" width=70% /> <img  src="./src/images/Portfolio/contactme1.png" height = 298px  />
+<img  src="./src/images/Portfolio/contactme.png" width=70% /> <img  src="./src/images/Portfolio/contactme1.png" height = 331px  />
 
 >**Ham Menu**
 
-<img  src="./src/images/Portfolio/ham.png" width=70% /> <img  src="./src/images/Portfolio/ham1.png" height = 298px  /> 
+<img  src="./src/images/Portfolio/ham.png" width=70% /> <img  src="./src/images/Portfolio/ham1.png" height = 331px  /> 
 
 >**Footer**
 
-<img  src="./src/images/Portfolio/footerr.png" width=70% /> <img  src="./src/images/Portfolio/footerr1.png" height = 32.5px  /> 
+<img  src="./src/images/Portfolio/footerr.png" width=70% /> <img  src="./src/images/Portfolio/footerr1.png" height = 35px  /> 
