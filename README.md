@@ -54,7 +54,7 @@ This project was a great opportunity to demonstrate my ability to build a user-f
 
 >**Homepage**
 
-<img  src="./src/images/Portfolio/home.png" width=70% /> <img  src="./src/images/Portfolio/home1.png" height = 328px  /> 
+<img  src="./src/images/Portfolio/home.png" width=70% /> <img  src="./src/images/Portfolio/home1.png" height = 330px  /> 
 
 >**My Intro**
 
