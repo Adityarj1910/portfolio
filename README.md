@@ -28,7 +28,7 @@ This project was a great opportunity to demonstrate my ability to build a user-f
 - Version control - Git/GitHub
 - Netlify
 
->### [Here's the link to my website](https://adityarj-portfolio.netlify.app/)
+>### Here's the [link](https://adityarj-portfolio.netlify.app/) to my website
 
 
 <!-- >**Homepage**
