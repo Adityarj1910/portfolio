@@ -54,11 +54,11 @@ This project was a great opportunity to demonstrate my ability to build a user-f
 
 >**Homepage**
 
-<img  src="./src/images/Portfolio/home.png" width=70% /> <img  src="./src/images/Portfolio/home1.png" height = 331px  /> 
+<img  src="./src/images/Portfolio/home.png" width=70% /> <img  src="./src/images/Portfolio/home1.png" height = 330.5px  /> 
 
 >**My Intro**
 
-<img  src="./src/images/Portfolio/intro.png" width=70% /> <img  src="./src/images/Portfolio/intro1.png" height = 331px  /> 
+<img  src="./src/images/Portfolio/intro.png" width=70% /> <img  src="./src/images/Portfolio/intro1.png" height = 330.5px  /> 
 
 >**Projects**
 
@@ -66,16 +66,16 @@ This project was a great opportunity to demonstrate my ability to build a user-f
 
 >**Blogs**
 
-<img  src="./src/images/Portfolio/blogs.png" width=70% /> <img  src="./src/images/Portfolio/blogs1.png" height = 331px  /> 
+<img  src="./src/images/Portfolio/blogs.png" width=70% /> <img  src="./src/images/Portfolio/blogs1.png" height = 330.5px  /> 
 
 >**Contact Me**
 
-<img  src="./src/images/Portfolio/contactme.png" width=70% /> <img  src="./src/images/Portfolio/contactme1.png" height = 331px  />
+<img  src="./src/images/Portfolio/contactme.png" width=70% /> <img  src="./src/images/Portfolio/contactme1.png" height = 330.5px  />
 
 >**Ham Menu**
 
-<img  src="./src/images/Portfolio/ham.png" width=70% /> <img  src="./src/images/Portfolio/ham1.png" height = 331px  /> 
+<img  src="./src/images/Portfolio/ham.png" width=70% /> <img  src="./src/images/Portfolio/ham1.png" height = 330.5px  /> 
 
 >**Footer**
 
-<img  src="./src/images/Portfolio/footerr.png" width=70% /> <img  src="./src/images/Portfolio/footerr1.png" height = 35px  /> 
+<img  src="./src/images/Portfolio/footerr.png" width=70% /> <img  src="./src/images/Portfolio/footerr1.png" height = 35.5px  /> 
